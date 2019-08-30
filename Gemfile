@@ -76,3 +76,5 @@ gem 'will_paginate', '> 3.0'
 gem "simple_form"
 #added for lesson 4.15
 gem "font-awesome-rails"
+#added for lesson lesson 5.16
+gem "devise"
