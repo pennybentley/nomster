@@ -71,7 +71,7 @@ source 'https://rails-assets.org' do
 end
 
 #added for lesson 3.12
-gem 'will_paginate', '> 3.0'
+gem 'will_paginate', '~> 3.0'
 #added for lesson 4.13
 gem "simple_form"
 #added for lesson 4.15
