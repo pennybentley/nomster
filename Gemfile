@@ -81,6 +81,6 @@ gem "devise"
 #added for lesson 9.29
 gem "geocoder"
 gem "figaro"
-#added for lesson 10.39
+#added for lesson 10.39  
 gem 'carrierwave', '~> 1.0'
 gem 'fog-aws'
