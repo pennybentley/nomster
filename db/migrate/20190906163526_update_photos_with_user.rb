@@ -4,3 +4,5 @@ class UpdatePhotosWithUser < ActiveRecord::Migration[5.2]
     add_index :photos, :user_id
   end
 end
+
+
