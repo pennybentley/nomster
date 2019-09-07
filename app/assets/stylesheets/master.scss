@@ -19,6 +19,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
+.comment-box {
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
 
 body {
   background: image_url('light-grey-terrazzo.png');
@@ -27,7 +34,7 @@ body {
 }
 
 img {
-    max-width:100%;
+    max-width:90%;
     height:auto;
 }
 
