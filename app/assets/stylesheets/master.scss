@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+  font-color: black;
 }
 
 .comment-box {
@@ -26,6 +27,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
+a{
+  color: black;
+}
+
+.navbar-inverse .navbar-nav .nav-link{
+  color: white;
+}
 
 body {
   background: image_url('light-grey-terrazzo.png');
@@ -34,7 +42,7 @@ body {
 }
 
 img {
-    max-width:90%;
+    max-width:95%;
     height:auto;
 }
 
@@ -45,7 +53,7 @@ img {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #DEC01F;
+  color: #fcf8e3;
   font-family: 'alegreyaregular', serif;
   font-size:26px;
 }
@@ -115,14 +123,14 @@ blockquote p {
   .current {
     font-style: normal;
     font-weight: bold;
-    background: #2e6ab1;
+    background: black;
     color: white;
-    border: 1px solid #2e6ab1;
+    border: 1px solid black;
   }
   a {
     text-decoration: none;
-    color: #105cb6;
-    border: 1px solid #9aafe5;
+    color: black;
+    border: 1px solid black;
     &:hover, &:focus {
       color: #000033;
       border-color: #000033;
