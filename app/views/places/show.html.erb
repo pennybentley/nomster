@@ -41,7 +41,7 @@
 
 <div class="clear"> </div>
 
-<!-- Modal -->
+<!-- Modal for commments -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -67,13 +67,13 @@
 
   <div class="col-10 offset-1">
     <h1 class="float-left"></h1>
-    <!-- Button trigger modal -->
+    <!-- Button trigger modal for comments -->
     <button type="button" class="btn btn-outline-primary btn-lg float-right" data-toggle="modal" data-target="#myModal">
      Add a comment
    </button>
   </div>
 
- <!-- Modal -->
+ <!-- Modal for photo-->
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -89,7 +89,7 @@
             <%= f.input :picture %>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-outline-primary btn-lg float-right" data-dismiss="modal">Close</button>
               <%= f.submit "Add a Photo", class: 'btn btn-outline-primary' %>
           </div>
         <% end %>
